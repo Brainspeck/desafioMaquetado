@@ -31,11 +31,7 @@ header {
 }
 
 main {
-
   background-color: whitesmoke;
-
-  
-
   padding: 4em 0 4em 0;
   flex: 5 5 150px;
 }
@@ -58,6 +54,27 @@ footer {
   main {
     padding: 5em 0 5em 0;
   }
+}
+/* a partir de aqui imort*/
+footer {
+  background-color: azure;
+}
+
+.pFooter {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(64, 61, 61);
+  padding: 8px 15px;
+  padding: 8px 15px;
+  justify-content: right;
+  font-size: small;
+  border: 0cap;
+  cursor: pointer;
+}
+
+.pFooter a {
+  text-decoration: none;
 }
 
 main {
@@ -228,26 +245,25 @@ a:active {
   position: relative;
   margin-top: 10px;
   padding-top: 10px;
+}
 
-/* a partir de aqui imort*/
 footer {
   background-color: azure;
 }
 
 .pFooter {
   width: 100%;
-  text-align: center;
   text-decoration: none;
+  text-align: center;
   color: rgb(64, 61, 61);
   padding: 8px 15px;
   padding: 8px 15px;
+  border: 0cap;
   justify-content: right;
   font-size: small;
-  border: 0cap;
   cursor: pointer;
 }
 
 .pFooter a {
   text-decoration: none;
-
 }/*# sourceMappingURL=main.css.map */
