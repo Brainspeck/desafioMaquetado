@@ -1,6 +1,6 @@
 * {
     margin: 5px;
-  
+
     box-sizing: border-box;
   }
   body {
@@ -27,7 +27,11 @@
     flex: 1 1 100px;
   }
   main {
+
     background-color: whitesmoke;
+
+    
+
     padding: 4em 0 4em 0;
     flex: 5 5 150px;
   }
@@ -48,5 +52,25 @@
       padding: 5em 0 5em 0;
     }
   }
+
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* a partir de aqui imort*/
+
+  @import "_featureFooter";
   @import 'featureMain';
+
