@@ -5,6 +5,7 @@
 }
 
 body {
+  margin: 5px;
   height: 95vh;
   background-color: rgba(15, 231, 231, 0.5);
   font-family: sans-serif;
@@ -25,8 +26,8 @@ header {
 }
 
 .left {
-  padding: 3em 0 3em 0;
   flex: 1 1 100px;
+  padding: 3em 0 3em 0;
 }
 
 main {
@@ -46,27 +47,6 @@ footer {
   padding: 1em 0 1em 0;
 }
 
-/* a partir de aqui imort*/
-footer {
-  background-color: azure;
-}
-
-.pFooter {
-  width: 100%;
-  text-align: center;
-  text-decoration: none;
-  color: rgb(64, 61, 61);
-  padding: 8px 15px;
-  padding: 8px 15px;
-  justify-content: right;
-  font-size: small;
-  border: 0cap;
-  cursor: pointer;
-}
-
-.pFooter a {
-  text-decoration: none;
-}
 /* a partir de aqui imort*/
 footer {
   background-color: azure;
@@ -164,8 +144,8 @@ a:active {
 
 .singleTag {
   text-decoration: none;
-  color: black;
   font-size: 15px;
+  color: black;
 }
 
 .singleTag:hover {
@@ -257,9 +237,7 @@ a:active {
   position: relative;
   margin-top: 10px;
   padding-top: 10px;
-
 }
-
 
 footer {
   background-color: azure;
@@ -280,9 +258,13 @@ footer {
 
 .pFooter a {
   text-decoration: none;
-} /*# sourceMappingURL=main.css.map */
+}
 
-/*!mayra*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .asideLeft {
   position: relative;
@@ -338,18 +320,28 @@ h4 {
   color: black;
 }
 
-/*! DEJEN LAS @MEDIA AL FINAL*/
-
-@media all and (max-width: 550px) {
-  .main {
-    flex-direction: column;
-  }
-  .main {
-    padding: 5em 0 5em 0;
-  }
-
+@media only screen and (max-width: 600px) {
   .asideLeft {
-    display: none;
+    visibility: hidden;
   }
 }
-
+@media only screen and (min-width: 600px) {
+  .asideLeft {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .asideLeft {
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .asideLeft {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .asideLeft {
+    visibility: visible;
+  }
+}/*# sourceMappingURL=main.css.map */
