@@ -1,5 +1,6 @@
 * {
-  margin: 5px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -8,7 +9,6 @@ body {
   background-color: rgba(15, 231, 231, 0.5);
   font-family: sans-serif;
   text-align: center;
-  color: aliceblue;
   font-size: 24px;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,6 @@ header {
 }
 
 .left {
-  background-color: rgb(76, 233, 44);
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
 }
@@ -47,14 +46,6 @@ footer {
   padding: 1em 0 1em 0;
 }
 
-@media all and (max-width: 550px) {
-  .main {
-    flex-direction: column;
-  }
-  main {
-    padding: 5em 0 5em 0;
-  }
-}
 /* a partir de aqui imort*/
 footer {
   background-color: azure;
@@ -266,4 +257,75 @@ footer {
 
 .pFooter a {
   text-decoration: none;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
+
+/*!mayra*/
+
+.asideLeft {
+  position: relative;
+  overflow: hidden;
+  font-family: system-ui, "Segoe UI", "Roboto";
+  display: block;
+  height: 100%;
+  width: 20%;
+  background-color: #efefef;
+  padding: 20px;
+  color: black;
+}
+
+.trending_box {
+  margin: 5px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.recently_box {
+  margin: 5px 0px 10px 0px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+a {
+  font-family: system-ui, "Segoe UI", "Roboto";
+  font-weight: 470;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  padding: 16px;
+  text-align: start;
+}
+
+a:hover {
+  background-color: #fff;
+  padding: 16px;
+  width: 100%;
+  text-align: start;
+  color: blue;
+}
+
+h4 {
+  font-size: 14px;
+  padding: 8px 0px;
+  color: black;
+}
+
+/*! DEJEN LAS @MEDIA AL FINAL*/
+
+@media all and (max-width: 550px) {
+  .main {
+    flex-direction: column;
+  }
+  .main {
+    padding: 5em 0 5em 0;
+  }
+
+  .asideLeft {
+    display: none;
+  }
+}
