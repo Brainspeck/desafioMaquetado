@@ -55,26 +55,7 @@
       margin-left: 0px;
       margin-right: 0px;
    }
-  
-/*
-    .contenedorBoton1{
-      margin-right: 0px;
-      margin-left: 0px;
-   }
 
-    .bloqueSearch{
-      min-width: 350px;
-      align-items: center;
-      margin: 0px;
-      margin-left: 20px;
-   }
-
-   .bloqueLogo{
-      border-width: 1px;
-      margin-right:0px;
-      margin-left: 20px;
-   }
-    */
   .divNave2 {
       width: 40%;
   }
@@ -116,9 +97,12 @@
     display: none;   
    }
 
-  .divNave2{
-    display: none;  
-   }
+  
+
+   .contenedorLupa{
+    margin-right: 150;
+    
+  }
 }
 
 @media screen and (max-width:0px){
@@ -143,10 +127,18 @@
     margin-right: 1px;
    }
 
-   .divNave2{
-    display: none;  
-   }
+   
 
+
+ /*  .contenedorLupa{
+    display: none;  
+    
+  }
+
+  .lupa {
+    display: none; 
+  }*/
+  
     }   
 
 
