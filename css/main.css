@@ -1,5 +1,6 @@
 * {
-  margin: 5px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -8,7 +9,6 @@ body {
   background-color: rgba(15, 231, 231, 0.5);
   font-family: sans-serif;
   text-align: center;
-  color: aliceblue;
   font-size: 24px;
   display: flex;
   flex-direction: column;
@@ -46,14 +46,6 @@ footer {
   padding: 1em 0 1em 0;
 }
 
-@media all and (max-width: 550px) {
-  .main {
-    flex-direction: column;
-  }
-  main {
-    padding: 5em 0 5em 0;
-  }
-}
 /* a partir de aqui imort*/
 footer {
   background-color: azure;
@@ -267,6 +259,8 @@ footer {
   text-decoration: none;
 } /*# sourceMappingURL=main.css.map */
 
+/*!mayra*/
+
 .asideLeft {
   position: relative;
   overflow: hidden;
@@ -319,4 +313,19 @@ h4 {
   font-size: 14px;
   padding: 8px 0px;
   color: black;
+}
+
+/*! DEJEN LAS @MEDIA AL FINAL*/
+
+@media all and (max-width: 550px) {
+  .main {
+    flex-direction: column;
+  }
+  .main {
+    padding: 5em 0 5em 0;
+  }
+
+  .asideLeft {
+    display: none;
+  }
 }
