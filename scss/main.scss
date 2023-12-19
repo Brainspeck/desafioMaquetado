@@ -71,7 +71,8 @@
 
   /* a partir de aqui imort*/
 
-  @import "_featureFooter";
+
   @import 'featureMain';
   @import 'footer';
-
+  @import "headerMain";
+  @import "headerMedia";
