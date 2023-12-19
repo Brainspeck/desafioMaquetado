@@ -31,7 +31,11 @@ header {
 }
 
 main {
-  background-color: purple;
+
+  background-color: whitesmoke;
+
+  
+
   padding: 4em 0 4em 0;
   flex: 5 5 150px;
 }
@@ -55,6 +59,176 @@ footer {
     padding: 5em 0 5em 0;
   }
 }
+
+main {
+  background-color: #f3f3f3;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f3f3f3;
+}
+
+.linksMain {
+  text-decoration: none;
+  color: black;
+}
+
+.mainButton {
+  display: inline;
+  height: 20px;
+  width: 35px;
+  border-radius: 10px;
+}
+
+a:active {
+  font-weight: 900;
+}
+
+.linksMain:hover {
+  background-color: white;
+  color: rgb(42, 87, 171);
+  height: 15px;
+  width: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.imagePost {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+}
+
+#imagenGrande {
+  width: 70%;
+}
+
+#fotoPerfil {
+  position: relative;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.profilePicture {
+  color: rgb(132, 126, 126);
+  font-size: 15px;
+}
+
+.postTitle {
+  display: flex;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+
+.spanInfo {
+  display: block;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.singleTag {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.singleTag:hover {
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.singleTag:visited {
+  color: black;
+}
+
+.firstSpanLetter {
+  color: pink;
+}
+
+#htmlTag:hover {
+  background-color: rgb(243, 218, 185);
+}
+
+#webdev:hover {
+  background-color: rgb(234, 233, 247);
+}
+
+#frontend:hover {
+  background-color: rgb(245, 216, 221);
+}
+
+#begginers:hover {
+  background-color: rgb(197, 229, 197);
+}
+
+.reactionContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.reactions {
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: -0.1rem;
+}
+
+.reactionContainer > span {
+  color: black;
+  font-size: 15px;
+}
+
+.reactions:visited {
+  color: black;
+}
+
+.reactions:hover {
+  padding: 6px;
+  background-color: lightgrey;
+  border-radius: 3px;
+}
+
+.comments {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.comments:visited {
+  color: black;
+}
+
+.comments:hover {
+  padding: 6px;
+  background-color: lightgrey;
+  border-radius: 3px;
+}
+
+.timeContainer {
+  text-decoration: none;
+}
+
+.timeContainer > p {
+  color: black;
+  font-size: 15px;
+}
+
+.simplePostContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+  padding-top: 10px;
+
 /* a partir de aqui imort*/
 footer {
   background-color: azure;
@@ -75,4 +249,5 @@ footer {
 
 .pFooter a {
   text-decoration: none;
+
 }/*# sourceMappingURL=main.css.map */
