@@ -1,0 +1,49 @@
+@media screen and (max-width:3000px){
+    //610x187
+    .simplePostContainer,.imagePost{
+        min-width: 610px;
+        min-height: 187px;
+    }
+  }
+  
+  @media screen and (max-width:2000px){
+    .simplePostContainer,.imagePost{
+
+        min-width: 570px;
+        min-height: 187;
+      }
+    }
+  
+  @media screen and (max-width:1440px){
+    .simplePostContainer,.imagePost{
+
+        min-width: 638px;
+        min-height: 160px;
+      }
+  }
+  
+  
+  @media screen and (max-width:992px){
+    .simplePostContainer,.imagePost{
+
+        min-width: 500px;
+        min-height: 187px;
+      }
+  }
+  
+  
+  @media screen and (max-width:768px){
+    .simplePostContainer,.imagePost{
+
+        min-width: 400px;
+        min-height: 186px;
+      }
+  }   
+    
+  @media screen and (max-width:600px){
+   
+  }
+  
+  @media screen and (max-width:0px){
+    
+    }  

@@ -82,9 +82,10 @@ footer {
 /* a partir de aqui imort*/
 
 @import "featureMain";
+@import "featureMainMedia";
 @import "footer";
 @import "headerMain";
 @import "headerMedia";
 @import "Aside-left";
 @import "featureizquierdo";
-/*@import "Aside-Right";*/
+@import "Aside-Right";
