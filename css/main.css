@@ -634,7 +634,7 @@ h3 {
   flex: 1 1 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-left: 5px;
 }
 
@@ -647,6 +647,7 @@ h3 {
   min-height: 200px;
   margin-bottom: 50px;
   padding: 8px;
+  margin-top: 20px;
 }
 
 .asideizquierdo2 {
@@ -729,6 +730,7 @@ h3 {
   width: 200px;
   height: 200px;
   overflow-y: scroll;
+  background: lightcoral;
 }
 
 .scrollable-list ul {
@@ -740,11 +742,33 @@ h3 {
   padding: 10px;
   border-bottom: 1px solid #ddd;
 }
-@media all and (max-width: 550px) {
-  .scrollable-list ul li .left {
+
+.footerizquierdo {
+  padding: 3em 0 3em 0;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.contenedorvacio {
+  padding: 3em 0 3em 0;
+  display: flex;
+  height: 60px;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+@media all and (max-width: 600px) {
+  .left {
     display: none;
   }
-  .scrollable-list ul li .asideizquierdo {
+  .asideizquierdo {
+    display: none;
+  }
+  .anclashover {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */
