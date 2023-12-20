@@ -775,7 +775,7 @@ h3 {
   color: black;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 600px) {
   .left {
     display: none;
   }
@@ -784,5 +784,11 @@ h3 {
   }
   .anclashover {
     display: none;
+  }
+}
+@media screen and (max-width: 3000px) {
+  .left {
+    margin-right: 200px;
+    margin-left: 200px;
   }
 }/*# sourceMappingURL=main.css.map */
