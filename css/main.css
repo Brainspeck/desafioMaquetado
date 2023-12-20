@@ -218,7 +218,7 @@ a:active {
 }
 
 .reactions:hover {
-  padding: 6px;
+  padding: 3px;
   background-color: lightgrey;
   border-radius: 3px;
 }
@@ -596,14 +596,6 @@ a {
   text-align: start;
 }
 
-a:hover {
-  background-color: #fff;
-  padding: 16px;
-  width: 100%;
-  text-align: start;
-  color: blue;
-}
-
 h4,
 h3 {
   font-size: 14px;
@@ -733,11 +725,26 @@ h3 {
   height: 20px;
 }
 
+.scrollable-list {
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.scrollable-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.scrollable-list ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
 @media all and (max-width: 550px) {
-  .left {
+  .scrollable-list ul li .left {
     display: none;
   }
-  .asideizquierdo {
+  .scrollable-list ul li .asideizquierdo {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */

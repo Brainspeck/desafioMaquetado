@@ -88,25 +88,26 @@ $colorletra: black;
   height: 20px;
 }
 .scrollable-list {
-    width: 200px;
-    height: 200px;
-    overflow-y: scroll;
-  }
-  
-  .scrollable-list ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .scrollable-list ul li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+}
 
-@media all and (max-width: 550px) {
-  .left {
-    display: none;
-  }
-  .asideizquierdo {
-    display: none;
+.scrollable-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.scrollable-list ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+
+  @media all and (max-width: 550px) {
+    .left {
+      display: none;
+    }
+    .asideizquierdo {
+      display: none;
+    }
   }
 }
