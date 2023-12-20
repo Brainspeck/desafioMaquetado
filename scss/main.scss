@@ -17,19 +17,31 @@ header {
   background-color: rgb(233, 148, 44);
   padding: 2px 0 2px 0;
 }
+
+
 .main {
   display: flex;
-  flex: 1;
+  /*flex: 1;*/
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  
+ 
+
+  /*padding: 4em 0 4em 0;
+  flex: 5 5 150px;*/
 }
+
+
+
 .left {
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
 }
-main {
+/* main {
   background-color: whitesmoke;
 
   box-sizing: border-box;
-}
+} */
 body {
   height: 95vh;
 
@@ -44,21 +56,26 @@ header {
   background-color: rgb(254, 253, 252);
   padding: 2px 0 2px 0;
 }
-.main {
+/*.main {
   display: flex;
   flex: 1;
-}
+}*/
+
+
 .left {
   background-color: rgb(76, 233, 44);
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
 }
-main {
+/*main {
   background-color: whitesmoke;
 
   padding: 4em 0 4em 0;
   flex: 5 5 150px;
-}
+}*/
+
+
+
 .right {
   background-color: grey;
   padding: 3em 0 3em 0;
@@ -69,10 +86,10 @@ footer {
   padding: 1em 0 1em 0;
 }
 @media all and (max-width: 550px) {
-  .main {
+  main {
     flex-direction: column;
   }
-  .main {
+  main {
     padding: 5em 0 5em 0;
   }
 }
@@ -90,7 +107,4 @@ footer {
 @import "featureizquierdo";
 @import "asideizquierdomedia";
 @import "Aside-Right";
-<<<<<<< HEAD
 @import "AsideRigthMedia.scss"
-=======
->>>>>>> 01aa3916e3c379955836989e8a26d5c76ad1dd04

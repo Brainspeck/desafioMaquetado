@@ -22,7 +22,11 @@ header {
 
 .main {
   display: flex;
-  flex: 1;
+  /*flex: 1;*/
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  /*padding: 4em 0 4em 0;
+  flex: 5 5 150px;*/
 }
 
 .left {
@@ -30,11 +34,11 @@ header {
   flex: 1 1 100px;
 }
 
-main {
+/* main {
   background-color: whitesmoke;
-  box-sizing: border-box;
-}
 
+  box-sizing: border-box;
+} */
 body {
   height: 95vh;
   font-family: sans-serif;
@@ -50,23 +54,22 @@ header {
   padding: 2px 0 2px 0;
 }
 
-.main {
+/*.main {
   display: flex;
   flex: 1;
-}
-
+}*/
 .left {
   background-color: rgb(76, 233, 44);
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
 }
 
-main {
+/*main {
   background-color: whitesmoke;
+
   padding: 4em 0 4em 0;
   flex: 5 5 150px;
-}
-
+}*/
 .right {
   background-color: grey;
   padding: 3em 0 3em 0;
@@ -79,10 +82,10 @@ footer {
 }
 
 @media all and (max-width: 550px) {
-  .main {
+  main {
     flex-direction: column;
   }
-  .main {
+  main {
     padding: 5em 0 5em 0;
   }
 }
@@ -288,6 +291,11 @@ a:active {
   .simplePostContainer, .imagePost {
     min-width: 350px;
     min-height: 186px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #imagenGrande, .imagePost {
+    max-width: 550px;
   }
 }
 footer {
@@ -837,17 +845,6 @@ footer {
   color: #737373;
 }
 
-@media all and (max-width: 600px) {
-  .left {
-    display: none;
-  }
-  .asideizquierdo {
-    display: none;
-  }
-  .anclashover {
-    display: none;
-  }
-}
 @media screen and (max-width: 3000px) {
   .left {
     margin-left: 500px;
@@ -856,13 +853,13 @@ footer {
 }
 @media screen and (max-width: 2000px) {
   .left {
-    margin-left: 500px;
+    margin-left: 100px;
     margin-right: 10px;
   }
 }
 @media screen and (max-width: 1440px) {
   .left {
-    margin-left: 500px;
+    margin-left: 350px;
     margin-right: 20px;
   }
 }
@@ -874,8 +871,35 @@ footer {
 }
 @media screen and (max-width: 768px) {
   .left {
-    margin-left: 20px;
-    margin-right: 10px;
+    display: none;
+  }
+  .asideizquierdo {
+    display: none;
+  }
+  .anclashover {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .left {
+    display: none;
+  }
+  .asideizquierdo {
+    display: none;
+  }
+  .anclashover {
+    display: none;
+  }
+}
+@media screen and (max-width: 0px) {
+  .left {
+    display: none;
+  }
+  .asideizquierdo {
+    display: none;
+  }
+  .anclashover {
+    display: none;
   }
 }
 * {
@@ -1057,9 +1081,28 @@ a.linkTrend {
   padding: 16px;
 }
 
+@media screen and (max-width: 3000px) {
+  .asideRight {
+    margin-right: 500px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .asideRight {
+    margin-right: 350px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .asideRight {
+    display: flex;
+    margin-right: 350px;
+    margin-left: 20px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .asideRight {
-    display: none;
+    /* display: none;*/
     min-width: 300px;
   }
   .discuss_box {
@@ -1067,7 +1110,7 @@ a.linkTrend {
   }
 }
 @media screen and (max-width: 600px) {
-  .asideRight {
+  .asideRight, .discuss_box {
     display: none;
   }
 }
@@ -1075,12 +1118,60 @@ a.linkTrend {
   .asideRight {
     visibility: visible;
   }
-<<<<<<< HEAD
 }
+/*
+
 @media screen and (max-width: 3000px) {
-  .discus_box {
+  .left {
     margin-right: 500px;
+    margin-left: 10px;
   }
-=======
->>>>>>> 01aa3916e3c379955836989e8a26d5c76ad1dd04
-}/*# sourceMappingURL=main.css.map */
+}
+
+
+@media screen and (max-width: 2000px) {
+  .left {
+    margin-right: 500px;
+    margin-left: 10px;
+
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .left {
+    margin-right: 500px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .left {
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left {
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 0px) {
+}
+@media all and (max-width: 600px) {
+  .left {
+    display: none;
+  }
+  .asideizquierdo {
+    display: none;
+  }
+  .anclashover {
+    display: none;
+  }
+}
+*//*# sourceMappingURL=main.css.map */

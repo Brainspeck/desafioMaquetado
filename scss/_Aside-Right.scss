@@ -178,26 +178,5 @@ a.linkTrend {
   padding: 16px;
 }
 
-@media screen and (max-width: 1024px) {
-  .asideRight {
-    display: none;
-    min-width: 300px;
-  }
-
-  .discuss_box{
-    min-width: 150px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .asideRight {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .asideRight {
-    visibility: visible;
-  }
-}
 
 
