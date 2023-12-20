@@ -127,14 +127,16 @@ a:active {
 .imagePost {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   width: 100%;
   position: relative;
 }
 
 #imagenGrande {
-  width: 70%;
+  max-width: 650px;
+  display: flex;
+  justify-content: center;
 }
 
 #fotoPerfil {
@@ -278,13 +280,13 @@ a:active {
 }
 @media screen and (max-width: 992px) {
   .simplePostContainer, .imagePost {
-    min-width: 500px;
+    min-width: 400px;
     min-height: 187px;
   }
 }
 @media screen and (max-width: 768px) {
   .simplePostContainer, .imagePost {
-    min-width: 400px;
+    min-width: 350px;
     min-height: 186px;
   }
 }
