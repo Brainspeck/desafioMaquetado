@@ -291,6 +291,32 @@ footer {
   padding: 20px;
 }
 
+.discuss_box,
+.watercooler_box {
+  background-color: rgb(248, 248, 248);
+  margin: 5px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.subtitle {
+  font-size: 8px;
+}
+
+a :hover,
+.linkDiscuss {
+  font-family: system-ui, "Segoe UI", "Roboto";
+  font-weight: 470;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 16px;
+  text-align: start;
+}
+
 a {
   font-family: system-ui, "Segoe UI", "Roboto";
   font-weight: 470;
@@ -314,6 +340,8 @@ h4 {
   padding: 8px 0px;
   color: black;
 }
+
+/*!mayra*/
 
 /*! DEJEN LAS @MEDIA AL FINAL*/
 
