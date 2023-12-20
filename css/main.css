@@ -28,6 +28,8 @@ header {
 .left {
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
+<<<<<<< HEAD
+=======
 }
 
 main {
@@ -60,6 +62,7 @@ header {
   background-color: rgb(76, 233, 44);
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
+>>>>>>> e36c35873bd00a01ea918e624c8e31dde61198b7
 }
 
 main {
