@@ -83,7 +83,7 @@ footer {
   .main {
     flex-direction: column;
   }
-  main {
+  .main {
     padding: 5em 0 5em 0;
   }
 }
@@ -218,7 +218,7 @@ a:active {
 }
 
 .reactions:hover {
-  padding: 6px;
+  padding: 3px;
   background-color: lightgrey;
   border-radius: 3px;
 }
@@ -287,7 +287,7 @@ footer {
   right: 0;
   top: 0;
   padding: 10px;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -352,11 +352,11 @@ footer {
 .buttonCreateAccount {
   min-width: 150px;
   background-color: azure;
-  border-color: rgb(37, 43, 196);
+  border-color: rgb(59, 57, 223);
   width: auto;
   text-align: center;
   text-decoration: none;
-  color: rgb(37, 43, 196);
+  color: rgb(59, 57, 223);
   padding: 8px 15px;
   border-radius: 7px;
   justify-content: right;
@@ -368,7 +368,7 @@ footer {
 
 .buttonCreateAccount:hover {
   color: rgb(246, 243, 243);
-  background-color: rgb(37, 43, 196);
+  background-color: rgb(59, 57, 223);
   text-decoration: underline;
 }
 
@@ -382,7 +382,7 @@ footer {
   width: 75px;
   text-align: center;
   text-decoration: none;
-  color: rgb(64, 61, 61);
+  color: rgb(64, 64, 64);
   padding: 8px 15px;
   margin: 4px 2px 4px 0px;
   padding: 8px 15px;
@@ -390,6 +390,11 @@ footer {
   font-size: medium;
   border: 0cap;
   cursor: pointer;
+}
+
+.buttonlogIn:hover {
+  color: rgb(59, 57, 223);
+  text-decoration: underline;
 }
 
 .divNave2 {
