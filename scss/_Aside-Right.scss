@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.asideRight {
+  position: relative;
+  overflow: hidden;
+  font-family: system-ui, "Segoe UI", "Roboto";
+  display: block;
+  height: 100%;
+  width: 20%;
+  background-color: #efefef;
+  padding: 20px;
+  color: black;
+}
+
+.trending_box {
+  margin: 5px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  text-align: start;
+}
+
+.recently_box {
+  margin: 5px 0px 10px 0px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding: 20px;
+  text-align: start;
+}
+
+a.linkRecently {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+
+a.linkTrend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.linkTrend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.discuss_box,
+.watercooler_box {
+  background-color: rgb(248, 248, 248);
+  margin: 20px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.watercooler_art,
+.discuss_art {
+  text-align: start;
+  border-bottom: 1px solid black;
+  padding: 16px;
+}
+
+span.subtitle {
+  font-size: 12px;
+  color: #717171;
+}
+
+.subtitle_title {
+  font-size: 10px;
+  color: #575757;
+  text-align: start;
+  padding: 5px;
+  font-family: system-ui, "Segoe UI", "Roboto";
+}
+
+a.linkDiscuss_hD {
+  color: #404040;
+  font-size: 20px;
+}
+
+a.linkRecently,
+a.linkDiscuss,
+a.linkWater {
+  font-family: system-ui, "Segoe UI", "Roboto";
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  padding: 16px;
+}
+
+a.linkTrend:hover,
+a.linkRecently:hover {
+  background-color: #fff;
+  padding: 16px;
+  width: 100%;
+  color: blue;
+}
+
+a.linkDiscuss:hover,
+a.linkWater:hover,
+a.linkDiscuss_hD:hover,
+a.linkWater_hD:hover {
+  color: blue;
+}
+
+a.linkDiscuss:link,
+a.linkWater:link,
+a.linkDiscuss_hD:link,
+a.linkWater_hD:link {
+  font-family: system-ui, "Segoe UI", "Roboto";
+  font-size: 16px;
+  color: #000;
+}
+
+a.linkDiscuss {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+a.linkWater {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h4 {
+  font-size: 14px;
+  padding: 8px 0px;
+  color: black;
+}
+
+a.linkDiscuss_hD,
+a.linkWater_hD {
+  font-size: 20px;
+  color: #404040;
+  text-decoration: none;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+a.linkRecently {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+a.linkTrend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: system-ui, "Segoe UI", "Roboto";
+  font-size: 16px;
+  color: #404040;
+  text-decoration: none;
+  padding: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .asideRight {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .asideRight {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .asideRight {
+    display: none;
+  }
+}
