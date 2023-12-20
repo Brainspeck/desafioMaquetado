@@ -72,7 +72,7 @@ footer {
   .main {
     flex-direction: column;
   }
-  main {
+  .main {
     padding: 5em 0 5em 0;
   }
 }
@@ -85,4 +85,4 @@ footer {
 @import "footer";
 @import "headerMain";
 @import "headerMedia";
-@import "Aside-left";
+@import "Aside-Right";
