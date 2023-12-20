@@ -13,13 +13,14 @@ $colorletra: black;
 .asideizquierdo {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
+  background-color: #fff;
   justify-content: flex-start;
-  margin-top: -60px;
+  margin-top: 5px;
   min-height: 200px;
   margin-bottom: 50px;
   padding: 8px;
-  margin-top: 20px;
+  margin-top: 2px;
+  border-radius: 9px;
 }
 .asideizquierdo2 {
   display: flex;
@@ -89,10 +90,11 @@ $colorletra: black;
   height: 20px;
 }
 .scrollable-list {
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 330px;
   overflow-y: scroll;
-  background: lightcoral;
+  display: flex;
+  margin-left: 20px;
 }
 
 .scrollable-list ul {
@@ -103,6 +105,7 @@ $colorletra: black;
 .scrollable-list ul li {
   padding: 10px;
   border-bottom: 1px solid #ddd;
+  color: black;
 }
 .footerizquierdo {
   padding: 3em 0 3em 0;
@@ -111,6 +114,7 @@ $colorletra: black;
   flex-direction: column;
   justify-content: center;
   margin-left: 5px;
+  margin-top: 35px;
 }
 .contenedorvacio {
   padding: 3em 0 3em 0;
@@ -119,6 +123,12 @@ $colorletra: black;
   flex-direction: column;
   justify-content: center;
   margin-left: 5px;
+}
+.titulolista {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  color: black;
 }
 
 @media all and (max-width: 600px) {
