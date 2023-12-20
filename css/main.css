@@ -1011,4 +1011,12 @@ a.linkTrend {
   .asideRight {
     visibility: visible;
   }
+<<<<<<< HEAD
+}
+@media screen and (max-width: 3000px) {
+  .discus_box {
+    margin-right: 500px;
+  }
+=======
+>>>>>>> 01aa3916e3c379955836989e8a26d5c76ad1dd04
 }/*# sourceMappingURL=main.css.map */
