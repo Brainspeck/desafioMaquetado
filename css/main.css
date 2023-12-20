@@ -28,8 +28,6 @@ header {
 .left {
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
-<<<<<<< HEAD
-=======
 }
 
 main {
@@ -62,7 +60,6 @@ header {
   background-color: rgb(76, 233, 44);
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
->>>>>>> e36c35873bd00a01ea918e624c8e31dde61198b7
 }
 
 main {
@@ -541,6 +538,7 @@ footer {
   background-color: #efefef;
   padding: 20px;
   color: black;
+  min-width: 300px;
 }
 
 .trending_box {
@@ -593,6 +591,7 @@ a.linkTrend {
   padding: 20px;
   border-radius: 10px;
   font-size: 16px;
+  min-width: 300px;
 }
 
 .watercooler_art,
@@ -702,6 +701,15 @@ a.linkTrend {
   padding: 16px;
 }
 
+@media screen and (max-width: 1024px) {
+  .asideRight {
+    display: none;
+    min-width: 300px;
+  }
+  .discuss_box {
+    min-width: 150px;
+  }
+}
 @media screen and (max-width: 600px) {
   .asideRight {
     display: none;
@@ -710,10 +718,5 @@ a.linkTrend {
 @media screen and (max-width: 800px) {
   .asideRight {
     visibility: visible;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .asideRight {
-    display: none;
   }
 }/*# sourceMappingURL=main.css.map */

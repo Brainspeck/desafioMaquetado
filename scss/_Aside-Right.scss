@@ -14,6 +14,7 @@
   background-color: #efefef;
   padding: 20px;
   color: black;
+  min-width: 300px;
 }
 
 .trending_box {
@@ -66,6 +67,8 @@ a.linkTrend {
   padding: 20px;
   border-radius: 10px;
   font-size: 16px;
+  min-width: 300px;
+ 
 }
 
 .watercooler_art,
@@ -175,6 +178,16 @@ a.linkTrend {
   padding: 16px;
 }
 
+@media screen and (max-width: 1024px) {
+  .asideRight {
+    display: none;
+    min-width: 300px;
+  }
+
+  .discuss_box{
+    min-width: 150px;
+  }
+}
 @media screen and (max-width: 600px) {
   .asideRight {
     display: none;
@@ -187,8 +200,4 @@ a.linkTrend {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .asideRight {
-    display: none;
-  }
-}
+
