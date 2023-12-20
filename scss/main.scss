@@ -6,7 +6,7 @@
 body {
   margin: 5px;
   height: 95vh;
-  background-color: rgba(15, 231, 231, 0.5);
+  background-color: white;
   font-family: sans-serif;
   text-align: center;
   font-size: 24px;
@@ -32,7 +32,7 @@ main {
 }
 body {
   height: 95vh;
-  background-color: rgba(15, 231, 231, 0.5);
+
   font-family: sans-serif;
   text-align: center;
   color: aliceblue;
@@ -85,4 +85,9 @@ footer {
 @import "footer";
 @import "headerMain";
 @import "headerMedia";
+<<<<<<< HEAD
+@import "Aside-left";
+@import "featureizquierdo";
+=======
 @import "Aside-Right";
+>>>>>>> 0a3207e33d30c486158139c408ff395b211e1ced
