@@ -28,8 +28,6 @@ header {
 .left {
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
-<<<<<<< HEAD
-=======
 }
 
 main {
@@ -62,7 +60,6 @@ header {
   background-color: rgb(76, 233, 44);
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
->>>>>>> e36c35873bd00a01ea918e624c8e31dde61198b7
 }
 
 main {
@@ -567,23 +564,25 @@ footer {
   margin: 5px 0px 10px 0px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 20px;
   border-radius: 10px;
   font-size: 16px;
 }
 
-.subtitle {
-  font-size: 8px;
+.watercooler_art {
+  text-align: start;
+  border-bottom: 1px solid black;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-a :hover,
-.linkDiscuss {
-  font-family: system-ui, "Segoe UI", "Roboto";
-  font-weight: 470;
-  font-size: 16px;
-  text-decoration: none;
-  padding: 16px;
+.linkWater {
+  padding: 10px;
+}
+
+.subtitle {
   text-align: start;
 }
 
@@ -605,28 +604,14 @@ a:hover {
   color: blue;
 }
 
-h4 {
+h4,
+h3 {
   font-size: 14px;
   padding: 8px 0px;
   color: black;
 }
 
-<<<<<<< HEAD
-/*!mayra*/
-
-/*! DEJEN LAS @MEDIA AL FINAL*/
-
-@media all and (max-width: 550px) {
-  .main {
-    flex-direction: column;
-  }
-  .main {
-    padding: 5em 0 5em 0;
-  }
-
-=======
 @media only screen and (max-width: 600px) {
->>>>>>> e9e73f2a9be0e9b38511be4500f9e47c841efbb8
   .asideLeft {
     visibility: hidden;
   }
@@ -649,5 +634,110 @@ h4 {
 @media only screen and (min-width: 1300px) {
   .asideLeft {
     visibility: visible;
+  }
+}
+.left {
+  background-color: #fff;
+  padding: 3em 0 3em 0;
+  flex: 1 1 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.asideizquierdo {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  justify-content: flex-start;
+  margin-top: -60px;
+  min-height: 200px;
+  margin-bottom: 50px;
+  padding: 8px;
+}
+
+.asideizquierdo2 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  justify-content: flex-start;
+  margin-top: 50px;
+  height: 100px;
+  max-height: 200px;
+}
+
+.asideizquierdo .titulo {
+  color: black;
+}
+
+.parrafo {
+  color: black;
+  font-size: 18px;
+}
+
+.anclas {
+  border: 1px solid lightblue;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.anclashover:hover {
+  border: 1px solid #3b49df;
+  font-size: 14px;
+  padding: 8px;
+  background-color: #3b49df;
+  color: aqua;
+  border-radius: 10px;
+}
+
+.anclashover {
+  border: 1px solid lightblue;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.listaiconitos {
+  list-style: none;
+  width: 100%;
+}
+.listaiconitos .alineado {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px;
+}
+.listaiconitos span {
+  font-size: 20px;
+}
+
+.segundonav {
+  margin-top: 30px;
+}
+
+.listaiconitos2 {
+  list-style: none;
+  width: 100%;
+}
+.listaiconitos2 .alineado {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 4px;
+}
+
+.reducir {
+  width: 20px;
+  height: 20px;
+}
+
+@media all and (max-width: 550px) {
+  .left {
+    display: none;
+  }
+  .asideizquierdo {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
