@@ -527,7 +527,7 @@ footer {
   box-sizing: border-box;
 }
 
-.asideRight {
+.asideLeft {
   position: relative;
   overflow: hidden;
   font-family: system-ui, "Segoe UI", "Roboto";
@@ -537,17 +537,15 @@ footer {
   background-color: #efefef;
   padding: 20px;
   color: black;
-  min-width: 300px;
 }
 
 .trending_box {
   margin: 5px 0px 10px 0px;
   display: flex;
   flex-direction: column;
-  align-content: flex-start;
+  align-items: flex-start;
   padding: 20px;
   border-bottom: 1px solid black;
-  text-align: start;
 }
 
 .recently_box {
@@ -555,167 +553,77 @@ footer {
   border-bottom: 1px solid black;
   display: flex;
   flex-direction: column;
-  align-content: flex-start;
+  align-items: flex-start;
   padding: 20px;
-  text-align: start;
-}
-
-a.linkRecently {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: start;
-}
-
-a.linkTrend {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: start;
-}
-
-.linkTrend {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: start;
 }
 
 .discuss_box,
 .watercooler_box {
   background-color: rgb(248, 248, 248);
-  margin: 20px 0px 10px 0px;
+  margin: 5px 0px 10px 0px;
   display: flex;
   flex-direction: column;
   padding: 20px;
   border-radius: 10px;
   font-size: 16px;
-  min-width: 300px;
 }
 
-.watercooler_art,
-.discuss_art {
+.watercooler_art {
   text-align: start;
   border-bottom: 1px solid black;
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-span.subtitle {
-  font-size: 12px;
-  color: #717171;
+.linkWater {
+  padding: 10px;
 }
 
-.subtitle_title {
-  font-size: 10px;
-  color: #575757;
+.subtitle {
   text-align: start;
-  padding: 5px;
-  font-family: system-ui, "Segoe UI", "Roboto";
 }
 
-a.linkDiscuss_hD {
-  color: #404040;
-  font-size: 20px;
-}
-
-a.linkRecently,
-a.linkDiscuss,
-a.linkWater {
+a {
   font-family: system-ui, "Segoe UI", "Roboto";
+  font-weight: 470;
   font-size: 16px;
   color: #000;
   text-decoration: none;
   padding: 16px;
+  text-align: start;
 }
 
-a.linkTrend:hover,
-a.linkRecently:hover {
-  background-color: #fff;
-  padding: 16px;
-  width: 100%;
-  color: blue;
-}
-
-a.linkDiscuss:hover,
-a.linkWater:hover,
-a.linkDiscuss_hD:hover,
-a.linkWater_hD:hover {
-  color: blue;
-}
-
-a.linkDiscuss:link,
-a.linkWater:link,
-a.linkDiscuss_hD:link,
-a.linkWater_hD:link {
-  font-family: system-ui, "Segoe UI", "Roboto";
-  font-size: 16px;
-  color: #000;
-}
-
-a.linkDiscuss {
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-a.linkWater {
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-h4 {
+h4,
+h3 {
   font-size: 14px;
   padding: 8px 0px;
   color: black;
 }
 
-a.linkDiscuss_hD,
-a.linkWater_hD {
-  font-size: 20px;
-  color: #404040;
-  text-decoration: none;
-  font-weight: 700;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-a.linkRecently {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-a.linkTrend {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-family: system-ui, "Segoe UI", "Roboto";
-  font-size: 16px;
-  color: #404040;
-  text-decoration: none;
-  padding: 16px;
-}
-
-@media screen and (max-width: 1024px) {
-  .asideRight {
-    display: none;
-    min-width: 300px;
-  }
-  .discuss_box {
-    min-width: 150px;
+@media only screen and (max-width: 600px) {
+  .asideLeft {
+    visibility: hidden;
   }
 }
-@media screen and (max-width: 600px) {
-  .asideRight {
-    display: none;
+@media only screen and (min-width: 600px) {
+  .asideLeft {
+    visibility: hidden;
   }
 }
-@media screen and (max-width: 800px) {
-  .asideRight {
+@media only screen and (min-width: 768px) {
+  .asideLeft {
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .asideLeft {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .asideLeft {
     visibility: visible;
   }
 }
@@ -873,4 +781,5 @@ a.linkTrend {
   .anclashover {
     display: none;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*@import "Aside-Right";*//*# sourceMappingURL=main.css.map */
