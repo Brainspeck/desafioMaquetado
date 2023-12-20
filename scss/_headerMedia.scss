@@ -1,0 +1,153 @@
+
+@media screen and (max-width:3000px){
+  .divNave2 {
+      width: 40%;
+  }
+  
+  .bloqueSearch{
+      min-width: 350px;
+      align-items: center;
+      margin: 0px;
+      margin-left: 20px;
+   } 
+}
+
+@media screen and (max-width:2000px){
+  .divNave2 {
+       width: 40%;
+   } 
+}
+
+@media screen and (max-width:1440px){
+    .contenedorBoton{
+        border-width: 1px;
+        margin-left: 0px;
+        margin-right: 0px;
+   }
+    .contenedorBoton1{
+        border-width: 1px;
+        margin-right: 0px;
+        margin-left: 0px;
+   }
+     .bloqueSearch{
+        min-width: 350px;
+        align-items: center;
+        margin: 0px;
+        margin-left: 20px;
+   }
+  
+  .bloqueLogo{
+        border-width: 1px;
+        margin-right:0px;
+        margin-left: 0px;
+   }
+    
+  .divNave2 {
+  width: 30%;
+  }   
+}
+
+
+@media screen and (max-width:992px){
+
+    .contenedorBoton{
+      min-width: 150px;
+      margin-left: 0px;
+      margin-right: 0px;
+   }
+
+  .divNave2 {
+      width: 40%;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  .bloqueSearch{
+      display: none;  
+
+    }
+
+   .searchInput{
+      display: none;       
+   }
+   
+
+   .contenedorBoton {
+       display: none;   
+   }
+  .buttonlogIn {
+      display: none;   
+  }
+}   
+  
+@media screen and (max-width:600px){
+    .bloqueSearch{
+      display: none;  
+    }
+
+   .searchInput{
+      display: none;       
+   }
+   
+.contenedorBoton {
+      display: none;   
+   }
+  .buttonlogIn {
+    display: none;   
+   }
+
+  
+
+   .contenedorLupa{
+    margin-right: 150;
+    
+  }
+}
+
+@media screen and (max-width:0px){
+  .bloqueSearch{
+          display: none;  
+   }
+  
+  .searchInput{   
+      display: none;       
+   }
+       
+   .contenedorBoton {
+      display: none;   
+   }
+
+  .buttonlogIn {
+     display: none;   
+  }
+
+  .contenedorBoton1{
+    border-width: 1px;
+    margin-right: 1px;
+   }
+
+   
+
+
+ /*  .contenedorLupa{
+    display: none;  
+    
+  }
+
+  .lupa {
+    display: none; 
+  }*/
+  
+    }   
+
+
+
+
+
+
+
+
+
+
+

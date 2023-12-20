@@ -26,8 +26,40 @@ header {
 }
 
 .left {
-  flex: 1 1 100px;
   padding: 3em 0 3em 0;
+  flex: 1 1 100px;
+}
+
+main {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+
+body {
+  height: 95vh;
+  background-color: rgba(15, 231, 231, 0.5);
+  font-family: sans-serif;
+  text-align: center;
+  color: aliceblue;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(254, 253, 252);
+  padding: 2px 0 2px 0;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.left {
+  background-color: rgb(76, 233, 44);
+  padding: 3em 0 3em 0;
+  flex: 1 1 100px;
 }
 
 main {
@@ -47,28 +79,16 @@ footer {
   padding: 1em 0 1em 0;
 }
 
+@media all and (max-width: 550px) {
+  .main {
+    flex-direction: column;
+  }
+  main {
+    padding: 5em 0 5em 0;
+  }
+}
 /* a partir de aqui imort*/
-footer {
-  background-color: azure;
-}
-
-.pFooter {
-  width: 100%;
-  text-align: center;
-  text-decoration: none;
-  color: rgb(64, 61, 61);
-  padding: 8px 15px;
-  padding: 8px 15px;
-  justify-content: right;
-  font-size: small;
-  border: 0cap;
-  cursor: pointer;
-}
-
-.pFooter a {
-  text-decoration: none;
-}
-
+/* a partir de aqui imort*/
 main {
   background-color: #f3f3f3;
 }
@@ -260,6 +280,244 @@ footer {
   text-decoration: none;
 }
 
+nav .navegadorHeader {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0 5;
+  height: 100 px;
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.bloqueLogo {
+  list-style: none;
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bloqueSearch {
+  margin: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 4px 2px 0px 5px;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 400px;
+  min-width: 350px;
+}
+
+.searchInput {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: medium;
+  border-radius: 5px;
+  border-color: rgba(77, 72, 72, 0.733);
+  border-width: 1px;
+}
+
+.contenedorBoton1 {
+  border-width: 1px;
+  margin-right: 50px;
+  justify-content: right;
+}
+
+.buttonCreateAccount {
+  min-width: 150px;
+  background-color: azure;
+  border-color: rgb(37, 43, 196);
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(37, 43, 196);
+  padding: 8px 15px;
+  border-radius: 7px;
+  justify-content: right;
+  font-size: medium;
+  flex-direction: row;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.buttonCreateAccount:hover {
+  color: rgb(246, 243, 243);
+  background-color: rgb(37, 43, 196);
+  text-decoration: underline;
+}
+
+.contenedorBoton {
+  margin-left: 50px;
+  justify-content: right;
+}
+
+.buttonlogIn {
+  background-color: rgba(253, 255, 255, 0);
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(64, 61, 61);
+  padding: 8px 15px;
+  margin: 4px 2px 4px 0px;
+  padding: 8px 15px;
+  justify-content: right;
+  font-size: medium;
+  border: 0cap;
+  cursor: pointer;
+}
+
+.divNave2 {
+  width: 20%;
+  margin: 0;
+  background: rgba(5, 5, 5, 0);
+}
+
+.contenedorLupa {
+  height: 100%;
+  width: 30px;
+}
+
+.lupa {
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+@media screen and (max-width: 3000px) {
+  .divNave2 {
+    width: 40%;
+  }
+  .bloqueSearch {
+    min-width: 350px;
+    align-items: center;
+    margin: 0px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .divNave2 {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .contenedorBoton {
+    border-width: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contenedorBoton1 {
+    border-width: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .bloqueSearch {
+    min-width: 350px;
+    align-items: center;
+    margin: 0px;
+    margin-left: 20px;
+  }
+  .bloqueLogo {
+    border-width: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .divNave2 {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .contenedorBoton {
+    min-width: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .divNave2 {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bloqueSearch {
+    display: none;
+  }
+  .searchInput {
+    display: none;
+  }
+  .contenedorBoton {
+    display: none;
+  }
+  .buttonlogIn {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bloqueSearch {
+    display: none;
+  }
+  .searchInput {
+    display: none;
+  }
+  .contenedorBoton {
+    display: none;
+  }
+  .buttonlogIn {
+    display: none;
+  }
+  .contenedorLupa {
+    margin-right: 150;
+  }
+}
+@media screen and (max-width: 0px) {
+  .bloqueSearch {
+    display: none;
+  }
+  .searchInput {
+    display: none;
+  }
+  .contenedorBoton {
+    display: none;
+  }
+  .buttonlogIn {
+    display: none;
+  }
+  .contenedorBoton1 {
+    border-width: 1px;
+    margin-right: 1px;
+  }
+  /*  .contenedorLupa{
+     display: none;  
+
+   }
+
+   .lupa {
+     display: none; 
+   }*/
+}
 * {
   margin: 0;
   padding: 0;
