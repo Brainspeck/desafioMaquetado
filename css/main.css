@@ -22,12 +22,14 @@ header {
 
 .main {
   display: flex;
-  /*flex: 1;*/
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
-  justify-content: center;
+  /* justify-content: center;*/
+  width: 80%;
+  margin: 0, auto;
   margin-top: 50px;
-  margin-left: 500px;
+  max-width: 1280px;
+  padding: 8px;
   /*padding: 4em 0 4em 0;
   flex: 5 5 150px;*/
 }
@@ -46,7 +48,7 @@ body {
   height: 95vh;
   font-family: sans-serif;
   text-align: center;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   font-size: 24px;
   display: flex;
   flex-direction: column;
@@ -333,7 +335,7 @@ footer {
 }
 
 .navegadorHeader {
-  position: fixed;
+  /*position:fixed;*/
   z-index: 10;
   left: 0;
   right: 0;
@@ -342,8 +344,9 @@ footer {
   background-color: rgb(255, 255, 255);
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
+  margin: 0, auto;
 }
 
 .menu {
@@ -403,8 +406,8 @@ footer {
 
 .contenedorBoton1 {
   border-width: 1px;
-  margin-right: 50px;
-  justify-content: right;
+  /*margin-right: 50px;*/
+  /*justify-content:right; */
 }
 
 .buttonCreateAccount {
@@ -906,13 +909,13 @@ footer {
 
 @media screen and (max-width: 3000px) {
   .left {
-    margin-left: 500px;
-    margin-right: 10px;
+    /* margin-left: 500px;
+     margin-right: 10px;*/
   }
 }
 @media screen and (max-width: 2000px) {
   .left {
-    margin-left: 100px;
+    /* margin-left: 100px;*/
     margin-right: 10px;
   }
 }
@@ -1143,7 +1146,6 @@ a.linkTrend {
 
 @media screen and (max-width: 3000px) {
   .asideRight {
-    margin-right: 500px;
     margin-left: 10px;
   }
 }

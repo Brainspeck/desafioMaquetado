@@ -22,13 +22,14 @@ header {
 
 .main {
   display: flex;
-  /*flex: 1;*/
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
-  justify-content: center;
-  margin-top: 50px;
-  margin-left: 500px;
- 
+ /* justify-content: center;*/
+  width: 80%;
+ margin: 0, auto;
+ margin-top: 50px;
+ max-width: 1280px;
+ padding: 8px;
  
 
   /*padding: 4em 0 4em 0;
@@ -51,7 +52,7 @@ body {
 
   font-family: sans-serif;
   text-align: center;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   font-size: 24px;
   display: flex;
   flex-direction: column;

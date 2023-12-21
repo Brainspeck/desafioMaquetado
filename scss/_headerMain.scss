@@ -1,7 +1,7 @@
 
 
  .navegadorHeader {
-    position:fixed;
+    /*position:fixed;*/
     z-index: 10;
     left: 0;
     right: 0;
@@ -10,8 +10,9 @@
     background-color: rgb(255, 255, 255);
     width: 100%;
     display: flex;
-    justify-content:flex-start;
+    justify-content:space-around;
     align-items: center;
+    margin: 0, auto;
   }
   
   
@@ -75,8 +76,8 @@
   
   .contenedorBoton1{
     border-width: 1px;
-    margin-right: 50px;
-    justify-content:right; 
+    /*margin-right: 50px;*/
+    /*justify-content:right; */
   }
   
   .buttonCreateAccount {
