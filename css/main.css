@@ -114,7 +114,6 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #f3f3f3;
 }
 
 .linksMain {
@@ -149,6 +148,8 @@ a:active {
   align-items: flex-start;
   width: 100%;
   position: relative;
+  background-color: white;
+  margin-bottom: 30px;
 }
 
 #imagenGrande {
@@ -200,6 +201,10 @@ a:active {
   color: pink;
 }
 
+.tags {
+  margin-bottom: 50px;
+}
+
 #htmlTag:hover {
   background-color: rgb(243, 218, 185);
 }
@@ -230,6 +235,11 @@ a:active {
 .reactionContainer > span {
   color: black;
   font-size: 15px;
+  margin-top: 17px;
+}
+
+.timeContainer {
+  margin-top: 17px;
 }
 
 .reactions:visited {
@@ -271,11 +281,16 @@ a:active {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  width: 90%;
   align-items: flex-start;
-  width: 100%;
   position: relative;
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-top: 3px;
+  padding-top: 5px;
+  border-radius: 40px;
+}
+
+#relevant {
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 3000px) {
@@ -1188,6 +1203,9 @@ a.linkTrend {
     margin-right: 500px;
     margin-left: 10px;
   }
+<<<<<<< HEAD
+}/*# sourceMappingURL=main.css.map */
+=======
 }
 
 
@@ -1237,3 +1255,4 @@ a.linkTrend {
   }
 }
 *//*# sourceMappingURL=main.css.map */
+>>>>>>> 35e1c7234d9ec56e8863380f1d3e11006b52b5aa
