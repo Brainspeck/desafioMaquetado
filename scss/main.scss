@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 body {
   margin: 5px;
   height: 95vh;
-  background-color: rgba(15, 231, 231, 0.5);
+  background-color: white;
   font-family: sans-serif;
   text-align: center;
   font-size: 24px;
@@ -17,25 +18,41 @@ header {
   background-color: rgb(233, 148, 44);
   padding: 2px 0 2px 0;
 }
+
+
 .main {
   display: flex;
-  flex: 1;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+ /* justify-content: center;*/
+  width: 80%;
+ margin: 0, auto;
+ margin-top: 50px;
+ max-width: 1280px;
+ padding: 8px;
+ 
+
+  /*padding: 4em 0 4em 0;
+  flex: 5 5 150px;*/
 }
+
+
+
 .left {
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
 }
-main {
+/* main {
   background-color: whitesmoke;
 
   box-sizing: border-box;
-}
+} */
 body {
   height: 95vh;
-  background-color: rgba(15, 231, 231, 0.5);
+
   font-family: sans-serif;
   text-align: center;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   font-size: 24px;
   display: flex;
   flex-direction: column;
@@ -44,21 +61,26 @@ header {
   background-color: rgb(254, 253, 252);
   padding: 2px 0 2px 0;
 }
-.main {
+/*.main {
   display: flex;
   flex: 1;
-}
+}*/
+
+
 .left {
   background-color: rgb(76, 233, 44);
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
 }
-main {
+/*main {
   background-color: whitesmoke;
 
   padding: 4em 0 4em 0;
   flex: 5 5 150px;
-}
+}*/
+
+
+
 .right {
   background-color: grey;
   padding: 3em 0 3em 0;
@@ -69,20 +91,41 @@ footer {
   padding: 1em 0 1em 0;
 }
 @media all and (max-width: 550px) {
-  .main {
+  main {
     flex-direction: column;
   }
-  .main {
+  main {
     padding: 5em 0 5em 0;
   }
 }
+
+@media screen and (max-width: 2000px) {
+  .main {
+ 
+    justify-content:center;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .main {
+    
+    margin-left: 10px;
+  }
+}
+
+
+ 
 
 /* a partir de aqui imort*/
 
 /* a partir de aqui imort*/
 
 @import "featureMain";
+@import "featureMainMedia";
 @import "footer";
 @import "headerMain";
 @import "headerMedia";
+@import "Aside-left";
+@import "featureizquierdo";
+@import "asideizquierdomedia";
 @import "Aside-Right";
+@import "AsideRigthMedia.scss";

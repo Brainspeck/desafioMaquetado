@@ -1,5 +1,7 @@
 main{
     background-color: #f3f3f3 ;
+    // display: flex;
+    // justify-content: center;
 }
 .mainContainer{
     display: flex;
@@ -40,14 +42,18 @@ main{
 .imagePost{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     width: 100%;
     position: relative;
     
 }
 #imagenGrande{
-    width: 70%;
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+   
+
 }
 #fotoPerfil{
     position: relative;
@@ -127,7 +133,7 @@ main{
     color: black;
 }
 .reactions:hover{
-    padding: 3px;
+    padding: 2px;
     background-color: lightgrey;
     border-radius: 3px;
 }
@@ -140,7 +146,7 @@ main{
     color: black;
 }
 .comments:hover{
-    padding: 6px;
+    padding: 2px;
     background-color: lightgrey;
     border-radius: 3px;
 }
