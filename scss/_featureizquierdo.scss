@@ -2,7 +2,7 @@ $colortituloasideizq: black;
 $colorletra: black;
 .left {
   background-color: #f3f3f3;
-  padding: 3em 0 3em 0;
+  /*padding: 3em 0 3em 0;*/
   flex: 1 1 100px;
   display: flex;
   flex-direction: column;
@@ -30,6 +30,9 @@ $colorletra: black;
   margin-top: 50px;
   height: 100px;
   max-height: 200px;
+}
+.guion_bajo {
+  text-decoration: none;
 }
 .asideizquierdo .titulo {
   color: $colortituloasideizq;
@@ -68,7 +71,7 @@ $colorletra: black;
     align-items: center;
     padding: 4px;
   }
-  span {
+  a {
     font-size: 20px;
   }
 }
@@ -112,7 +115,7 @@ $colorletra: black;
   height: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   margin-left: 5px;
   margin-top: 35px;
 }
@@ -130,15 +133,28 @@ $colorletra: black;
   font-size: 19px;
   color: black;
 }
-
-@media all and (max-width: 700px) {
-  .left {
-    display: none;
-  }
-  .asideizquierdo {
-    display: none;
-  }
-  .anclashover {
-    display: none;
-  }
+footer {
+  background-color: white;
+}
+.pFooter {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(64, 61, 61);
+  padding: 8px 15px;
+  padding: 8px 15px;
+  justify-content: right;
+  font-size: small;
+  border: 0cap;
+  cursor: pointer;
+  text-align: justify;
+}
+.pFooter a {
+  text-decoration: none;
+}
+.color_dev {
+  color: #3b49df;
+}
+.letrafooter {
+  color: #737373;
 }
