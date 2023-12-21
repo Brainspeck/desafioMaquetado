@@ -27,6 +27,15 @@
     width: 100%;
   }
    
+  .navFlotante {
+  
+    width: 500px;
+    height: 200px;
+    display: flex;
+    
+    }
+
+
    .bloqueLogo{
     list-style: none;
     padding: 0;
@@ -124,6 +133,7 @@
     width: 20%;
     margin: 0;
     background: rgba(5, 5, 5, 0);
+    display: flex;
     }
   
     .contenedorLupa {

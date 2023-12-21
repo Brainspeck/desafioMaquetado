@@ -29,6 +29,12 @@
        display: flex;
    } 
 }
+.navFlotante {
+  
+  width: 40%;
+  display: flex;
+  
+  }
 
 @media screen and (max-width:1440px){
     .contenedorBoton{
@@ -55,10 +61,16 @@
    }
     
   .divNave2 {
-  width: 30%;
+  width: 20%;
   display: flex;
   }   
 }
+.navFlotante {
+  
+  width: 40%;
+  display: flex;
+  
+  }
 
 
 @media screen and (max-width:992px){
@@ -74,7 +86,12 @@
       display: flex;
   }
 }
-
+.navFlotante {
+  
+  width: 40%;
+  display: flex;
+  
+  }
 
 @media screen and (max-width:768px){
   .bloqueSearch{
@@ -119,6 +136,13 @@
   }
 }
 
+.navFlotante {
+  
+  
+  display: none;
+  
+  }
+
 @media screen and (max-width:0px){
   .bloqueSearch{
           display: none;  
@@ -141,7 +165,12 @@
     margin-right: 1px;
    }
 
-   
+   .navFlotante {
+  
+    
+    display: none;
+    
+    }
 
 
  /*  .contenedorLupa{
