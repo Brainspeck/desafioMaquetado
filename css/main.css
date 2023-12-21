@@ -26,17 +26,12 @@ header {
   box-sizing: border-box;
   /* justify-content: center;*/
   width: 80%;
-  margin: 0, auto;
+  margin: 0 auto;
   margin-top: 50px;
   max-width: 1280px;
   padding: 8px;
   /*padding: 4em 0 4em 0;
   flex: 5 5 150px;*/
-}
-
-.left {
-  padding: 3em 0 3em 0;
-  flex: 1 1 100px;
 }
 
 /* main {
@@ -64,9 +59,7 @@ header {
   flex: 1;
 }*/
 .left {
-  background-color: rgb(76, 233, 44);
-  padding: 3em 0 3em 0;
-  flex: 1 1 100px;
+  background-color: rgb(255, 255, 255);
 }
 
 /*main {
@@ -361,7 +354,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 
 .menu {
@@ -632,121 +625,8 @@ footer {
      display: none; 
    }*/
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.asideLeft {
-  position: relative;
-  overflow: hidden;
-  font-family: system-ui, "Segoe UI", "Roboto";
-  display: block;
-  height: 100%;
-  width: 20%;
-  background-color: #efefef;
-  padding: 20px;
-  color: black;
-}
-
-.trending_box {
-  margin: 5px 0px 10px 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 20px;
-  border-bottom: 1px solid black;
-}
-
-.recently_box {
-  margin: 5px 0px 10px 0px;
-  border-bottom: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 20px;
-}
-
-.discuss_box,
-.watercooler_box {
-  background-color: rgb(248, 248, 248);
-  margin: 5px 0px 10px 0px;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 16px;
-}
-
-.watercooler_art {
-  text-align: start;
-  border-bottom: 1px solid black;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.linkWater {
-  padding: 10px;
-}
-
-.subtitle {
-  text-align: start;
-}
-
-a {
-  font-family: system-ui, "Segoe UI", "Roboto";
-  font-weight: 470;
-  font-size: 16px;
-  color: #000;
-  text-decoration: none;
-  padding: 16px;
-  text-align: start;
-}
-
-h4,
-h3 {
-  font-size: 14px;
-  padding: 8px 0px;
-  color: black;
-}
-
-/*
-
-@media only screen and (max-width: 600px) {
-  .asideLeft {
-    visibility: hidden;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .asideLeft {
-    visibility: hidden;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .asideLeft {
-    visibility: hidden;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .asideLeft {
-    visibility: hidden;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .asideLeft {
-    visibility: visible;
-  }
-}*/
 .left {
   background-color: #f3f3f3;
-  /*padding: 3em 0 3em 0;*/
   flex: 1 1 100px;
   display: flex;
   flex-direction: column;
@@ -1005,13 +885,13 @@ footer {
   flex-direction: column;
   align-content: flex-start;
   padding: 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(245, 245, 245);
   text-align: start;
 }
 
 .recently_box {
   margin: 5px 0px 10px 0px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(245, 245, 245);
   display: flex;
   flex-direction: column;
   align-content: flex-start;
@@ -1043,7 +923,7 @@ a.linkTrend {
 .discuss_box,
 .watercooler_box {
   background-color: rgb(248, 248, 248);
-  margin: 20px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
   display: flex;
   flex-direction: column;
   padding: 0px;
@@ -1055,7 +935,7 @@ a.linkTrend {
 .watercooler_art,
 .discuss_art {
   text-align: start;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(245, 245, 245);
   padding: 16px;
 }
 
@@ -1167,13 +1047,11 @@ a.linkTrend {
 @media screen and (max-width: 2000px) {
   .asideRight .discuss_box {
     margin-right: 0px;
-    margin-left: 10px;
   }
 }
 @media screen and (max-width: 1440px) {
   .asideRight {
     display: flex;
-    margin-right: 350px;
     margin-left: 20px;
   }
 }
@@ -1203,9 +1081,6 @@ a.linkTrend {
     margin-right: 500px;
     margin-left: 10px;
   }
-<<<<<<< HEAD
-}/*# sourceMappingURL=main.css.map */
-=======
 }
 
 
@@ -1255,4 +1130,3 @@ a.linkTrend {
   }
 }
 *//*# sourceMappingURL=main.css.map */
->>>>>>> 35e1c7234d9ec56e8863380f1d3e11006b52b5aa

@@ -1,24 +1,21 @@
 @media screen and (max-width:3000px){
     //610x187
     .simplePostContainer,.imagePost{
-        min-width: 610px;
-        min-height: 187px;
+      width: 100%;
     }
   }
   
   @media screen and (max-width:2000px){
     .simplePostContainer,.imagePost{
 
-        min-width: 570px;
-        min-height: 187;
+      width: 100%;
       }
     }
   
   @media screen and (max-width:1440px){
     .simplePostContainer,.imagePost{
-
-        min-width: 638px;
-        min-height: 160px;
+      width: 100%;
+        
       }
   }
   
@@ -26,8 +23,7 @@
   @media screen and (max-width:992px){
     .simplePostContainer,.imagePost{
 
-        min-width: 400px;
-        min-height: 187px;
+      width: 100%;
       }
   }
   
@@ -35,8 +31,7 @@
   @media screen and (max-width:768px){
     .simplePostContainer,.imagePost{
 
-        min-width: 350px;
-        min-height: 186px;
+      width: 100%;
       }
   }   
     
@@ -44,7 +39,7 @@
    
     #imagenGrande, .imagePost{
 
-      max-width: 550px;
+     width: 100%;
     
     }
 }  
