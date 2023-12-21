@@ -10,8 +10,8 @@
   
   
   @media screen and (max-width: 2000px) {
-    .asideRight  {
-      margin-right: 350px;
+    .asideRight .discuss_box {
+      margin-right: 0px;
       margin-left: 10px;
   
     }
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 1024px) {
     .asideRight {
-     /* display: none;*/
+      display: none;
       min-width: 300px;
     }
   

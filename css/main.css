@@ -25,6 +25,9 @@ header {
   /*flex: 1;*/
   background-color: whitesmoke;
   box-sizing: border-box;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 500px;
   /*padding: 4em 0 4em 0;
   flex: 5 5 150px;*/
 }
@@ -87,6 +90,16 @@ footer {
   }
   main {
     padding: 5em 0 5em 0;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .main {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .main {
+    margin-left: 10px;
   }
 }
 /* a partir de aqui imort*/
@@ -325,7 +338,7 @@ footer {
   left: 0;
   right: 0;
   top: 0;
-  padding: 10px;
+  padding: 2px;
   background-color: rgb(255, 255, 255);
   width: 100%;
   display: flex;
@@ -454,7 +467,7 @@ footer {
 
 @media screen and (max-width: 3000px) {
   .divNave2 {
-    width: 40%;
+    min-width: 250px;
   }
   .bloqueSearch {
     min-width: 350px;
@@ -463,9 +476,18 @@ footer {
     margin-left: 20px;
   }
 }
+.contenedorBoton1 {
+  margin: 0p 0px 0px 0px;
+}
+
+.contenedorBoton1 {
+  margin: 0px 300px 4px 0px;
+}
+
 @media screen and (max-width: 2000px) {
   .divNave2 {
     width: 40%;
+    display: flex;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -492,6 +514,7 @@ footer {
   }
   .divNave2 {
     width: 30%;
+    display: flex;
   }
 }
 @media screen and (max-width: 992px) {
@@ -502,6 +525,7 @@ footer {
   }
   .divNave2 {
     width: 40%;
+    display: flex;
   }
 }
 @media screen and (max-width: 768px) {
@@ -642,34 +666,40 @@ h3 {
   color: black;
 }
 
+/*
+
 @media only screen and (max-width: 600px) {
   .asideLeft {
     visibility: hidden;
   }
 }
+
 @media only screen and (min-width: 600px) {
   .asideLeft {
     visibility: hidden;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .asideLeft {
     visibility: hidden;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .asideLeft {
     visibility: hidden;
   }
 }
+
 @media only screen and (min-width: 1300px) {
   .asideLeft {
     visibility: visible;
   }
-}
+}*/
 .left {
   background-color: #f3f3f3;
-  padding: 3em 0 3em 0;
+  /*padding: 3em 0 3em 0;*/
   flex: 1 1 100px;
   display: flex;
   flex-direction: column;
@@ -912,13 +942,14 @@ footer {
   position: relative;
   overflow: hidden;
   font-family: system-ui, "Segoe UI", "Roboto";
-  display: block;
+  /*display: block;
   height: 100%;
-  width: 20%;
+  width: 20%;*/
   background-color: #efefef;
-  padding: 20px;
+  padding: 5px;
   color: black;
   min-width: 300px;
+  max-height: 100%;
 }
 
 .trending_box {
@@ -968,7 +999,7 @@ a.linkTrend {
   margin: 20px 0px 10px 0px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 0px;
   border-radius: 10px;
   font-size: 16px;
   min-width: 300px;
@@ -1088,8 +1119,8 @@ a.linkTrend {
   }
 }
 @media screen and (max-width: 2000px) {
-  .asideRight {
-    margin-right: 350px;
+  .asideRight .discuss_box {
+    margin-right: 0px;
     margin-left: 10px;
   }
 }
@@ -1102,7 +1133,7 @@ a.linkTrend {
 }
 @media screen and (max-width: 1024px) {
   .asideRight {
-    /* display: none;*/
+    display: none;
     min-width: 300px;
   }
   .discuss_box {
