@@ -38,10 +38,6 @@ header {
 
 
 
-.left {
-  padding: 3em 0 3em 0;
-  flex: 1 1 100px;
-}
 /* main {
   background-color: whitesmoke;
 
@@ -68,9 +64,8 @@ header {
 
 
 .left {
-  background-color: rgb(76, 233, 44);
-  padding: 3em 0 3em 0;
-  flex: 1 1 100px;
+  background-color: rgb(255, 255, 255);
+
 }
 /*main {
   background-color: whitesmoke;
@@ -128,8 +123,4 @@ footer {
 @import "featureizquierdo";
 @import "asideizquierdomedia";
 @import "Aside-Right";
-<<<<<<< HEAD
-@import "AsideRigthMedia.scss"
-=======
 @import "AsideRigthMedia.scss";
->>>>>>> 35e1c7234d9ec56e8863380f1d3e11006b52b5aa
